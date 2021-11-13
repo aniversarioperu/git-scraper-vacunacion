@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 
 try:
-    url = "http://datos.susalud.gob.pe/node/548/download"
+    url = "https://datos.susalud.gob.pe/node/548/download"
     print('VERIFY FALSE')
     req = requests.get(url, timeout=190, verify=False)
     print(req.status_code)
